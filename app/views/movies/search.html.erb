@@ -1,0 +1,6 @@
+<h1>OMG SEARCH FOR A MOVIE</h1>
+
+<%= form_tag('movies/result', method: 'get') do %>
+  <%= text_field_tag :s %>
+  <%= submit_tag "Search"%>
+<% end %>
